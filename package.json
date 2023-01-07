@@ -1,0 +1,31 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "install rollup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "prod": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Misha999-max/resultScool_rollup.git"
+  },
+  "keywords": [
+    "rollup"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Misha999-max/resultScool_rollup/issues"
+  },
+  "homepage": "https://github.com/Misha999-max/resultScool_rollup#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-image": "^3.0.1",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-styles": "^4.0.0"
+  }
+}
